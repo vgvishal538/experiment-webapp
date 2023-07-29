@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
-
 import { Coins } from "../../components/Coins";
 import { Account } from "../../components/Account";
 import { PageHeader } from "../../components/PageHeader";
-import Modal from '../../components/Modal/Modal';
 import DateRangePickerModal from '../../components/Modal/DateRangePickerModal';
 import { TableCell } from '../../components/TableCell';
-import { TableHeader } from '../../components/TableHeader';
 import { TableHeaderCell } from '../../components/TableHeaderCell';
 import { Clock } from '../../components/Clock';
 
@@ -18,7 +15,6 @@ const ReportsScreen = () => {
     });
     const [showReport, setshowReport] = useState(false);
 
-    const currentDate = new Date();
 
     const handleDateRangeSelect = (dateRange) => {
         setSelectedDateRange(dateRange);
@@ -39,7 +35,7 @@ const ReportsScreen = () => {
     }
     const handleCloseModal = (status) => {
         setIsModalOpen(false);
-        if (status == "generate_click") {
+        if (status === "generate_click") {
             setshowReport(!showReport);
             handleDownload();
         }

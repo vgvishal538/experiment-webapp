@@ -859,6 +859,7 @@ function reducer(state, action) {
           state: "open",
           type: "default",
         };
+       default: 
     }
   }
 
@@ -869,6 +870,7 @@ function reducer(state, action) {
           state: "open",
           type: "default",
         };
+        default:
     }
   }
 
@@ -879,6 +881,7 @@ function reducer(state, action) {
           state: "default",
           type: "default",
         };
+        default:
     }
   }
 
@@ -889,6 +892,7 @@ function reducer(state, action) {
           state: "open",
           type: "icon-leading",
         };
+        default:
     }
   }
 
@@ -899,6 +903,7 @@ function reducer(state, action) {
           state: "open",
           type: "icon-leading",
         };
+        default:
     }
   }
 
@@ -909,6 +914,7 @@ function reducer(state, action) {
           state: "default",
           type: "icon-leading",
         };
+        default:
     }
   }
 
@@ -919,6 +925,7 @@ function reducer(state, action) {
           state: "open",
           type: "search",
         };
+        default:
     }
   }
 
@@ -929,6 +936,7 @@ function reducer(state, action) {
           state: "open",
           type: "tags",
         };
+        default:
     }
   }
 
@@ -939,6 +947,7 @@ function reducer(state, action) {
           state: "open",
           type: "search",
         };
+        default:
     }
   }
 
@@ -949,6 +958,7 @@ function reducer(state, action) {
           state: "open",
           type: "tags",
         };
+        default:
     }
   }
 
@@ -959,6 +969,7 @@ function reducer(state, action) {
           state: "default",
           type: "search",
         };
+        default:
     }
   }
 
@@ -969,6 +980,7 @@ function reducer(state, action) {
           state: "default",
           type: "tags",
         };
+        default:
     }
   }
 
@@ -979,6 +991,7 @@ function reducer(state, action) {
           state: "open",
           type: "avatar-leading",
         };
+        default:
     }
   }
 
@@ -989,6 +1002,7 @@ function reducer(state, action) {
           state: "open",
           type: "avatar-leading",
         };
+        default:
     }
   }
 
@@ -999,6 +1013,7 @@ function reducer(state, action) {
           state: "default",
           type: "avatar-leading",
         };
+        default:
     }
   }
 
@@ -1009,6 +1024,7 @@ function reducer(state, action) {
           state: "open",
           type: "dot-leading",
         };
+        default:
     }
   }
 
@@ -1019,6 +1035,7 @@ function reducer(state, action) {
           state: "open",
           type: "dot-leading",
         };
+        default:
     }
   }
 
@@ -1029,6 +1046,7 @@ function reducer(state, action) {
           state: "default",
           type: "dot-leading",
         };
+        default:
     }
   }
 
