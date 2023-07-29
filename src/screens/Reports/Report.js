@@ -70,9 +70,9 @@ const ReportsScreen = () => {
                 <div className="">
                     <div className="">
                         <div className="div-wrapper">
-                            <div className="frame-2">git
+                            <div className="frame-2">
                                 <div className="frame-3">
-                                    <div className="text-13">Reports</div>
+                                    <div className="text-13">Reports </div>
                                 </div>
                                 <div className="frame-4">
                                     <div className="nav-item-base">
