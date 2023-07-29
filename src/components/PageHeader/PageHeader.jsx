@@ -258,7 +258,7 @@ export const PageHeader = ({
                 (breakpoint === "desktop" && style === "banner-avatar")) && (
                     <>
                         <div className="image-wrap-2">
-                            {breakpoint === "desktop" && (
+                            {/* {breakpoint === "desktop" && (
                                 <div className="image">
                                     <img
                                         className="image-2"
@@ -266,7 +266,7 @@ export const PageHeader = ({
                                         src="https://generation-sessions.s3.amazonaws.com/ce4be08f7e6073714fc1035d53225092/img/image-3.png"
                                     />
                                 </div>
-                            )}
+                            )} */}
                         </div>
                         <div className="container-2">
                             {(style === "banner-avatar" ||

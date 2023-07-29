@@ -114,7 +114,7 @@ const ReportsScreen = () => {
                                         className="page-header-instance"
                                         divider={false}
                                         search={false}
-                                        style="simple"
+                                        style={"simple"}
                                         supportingText={false}
                                         text="Collection Reports"
                                         textClassName="design-component-instance-node"
@@ -195,7 +195,7 @@ const ReportsScreen = () => {
                                         className="page-header-instance"
                                         divider={false}
                                         search={false}
-                                        style="simple"
+                                        style={"simple"}
                                         supportingText={false}
                                         text="Credit Financing Reports"
                                         textClassName="design-component-instance-node"
@@ -286,7 +286,7 @@ const ReportsScreen = () => {
                                             <TableCell
                                                 className="table-cell-instance"
                                                 stateProp="default"
-                                                style="text"
+                                                style={"text"}
                                                 supportingText={false}
                                                 text={currentDateTimeFormatted}
                                                 textAndSupportingClassName="design-component-instance-node"
@@ -304,7 +304,7 @@ const ReportsScreen = () => {
                                             <TableCell
                                                 className="table-cell-instance"
                                                 stateProp="default"
-                                                style="text"
+                                                style={"text"}
                                                 supportingText={false}
                                                 text="Cadbury"
                                                 textAndSupportingClassName="design-component-instance-node"
