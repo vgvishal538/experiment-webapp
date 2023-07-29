@@ -1,0 +1,103 @@
+.table-header {
+    align-items: center;
+    display: inline-flex;
+    gap: 4px;
+    position: relative;
+}
+
+.table-header .text-wrapper {
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.table-header .div {
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.table-header .help-icon {
+    background-size: 100% 100%;
+    height: 16px;
+    position: relative;
+    width: 16px;
+}
+
+.table-header .arrow-down {
+    height: 16px;
+    position: relative;
+    width: 16px;
+}
+
+.table-header .disabled {
+    color: #cfd4dc;
+}
+
+.table-header .default {
+    color: #475466;
+}
+
+.table-header .hover {
+    color: #344053;
+}
+
+.table-header .state-disabled {
+    color: #cfd4dc;
+}
+
+.table-header .state-default {
+    color: #475466;
+}
+
+.table-header .state-hover {
+    color: #344053;
+}
+
+.table-header .up.state-0-hover {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/9078dad974856d3f957a5935ba3da50b/img/help-circle.svg);
+}
+
+.table-header .down.state-0-default {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/9078dad974856d3f957a5935ba3da50b/img/help-circle-5.svg);
+}
+
+.table-header .down.state-0-disabled {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/9078dad974856d3f957a5935ba3da50b/img/help-circle-3.svg);
+}
+
+.table-header .state-0-default.false {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/9078dad974856d3f957a5935ba3da50b/img/help-circle-8.svg);
+}
+
+.table-header .up.state-0-disabled {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/9078dad974856d3f957a5935ba3da50b/img/help-circle-2.svg);
+}
+
+.table-header .up.state-0-default {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/9078dad974856d3f957a5935ba3da50b/img/help-circle-4.svg);
+}
+
+.table-header .false.state-0-disabled {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/9078dad974856d3f957a5935ba3da50b/img/help-circle-7.svg);
+}
+
+.table-header .state-0-hover.false {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/9078dad974856d3f957a5935ba3da50b/img/help-circle-6.svg);
+}
+
+.table-header .state-0-hover.down {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/9078dad974856d3f957a5935ba3da50b/img/help-circle-1.svg);
+}

@@ -1,0 +1,116 @@
+.breadcrumb-button {
+    display: inline-flex;
+    position: relative;
+}
+
+.breadcrumb-button .text-7 {
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.breadcrumb-button .home-line-instance {
+    height: 20px !important;
+    left: unset !important;
+    position: relative !important;
+    top: unset !important;
+    width: 20px !important;
+}
+
+.breadcrumb-button.button-gray {
+    border-radius: 6px;
+}
+
+.breadcrumb-button.icon-true {
+    align-items: flex-start;
+}
+
+.breadcrumb-button.icon-false {
+    align-items: center;
+    justify-content: center;
+}
+
+.breadcrumb-button.button-primary {
+    border-radius: 6px;
+}
+
+.breadcrumb-button.button-primary.current-true {
+    background-color: #f9f5ff;
+}
+
+.breadcrumb-button.button-gray.current-true {
+    background-color: #f8f9fb;
+}
+
+.breadcrumb-button.hover.button-primary {
+    background-color: #f9f5ff;
+}
+
+.breadcrumb-button.icon-false.button-primary {
+    padding: 4px 8px;
+}
+
+.breadcrumb-button.icon-true.button-primary {
+    padding: 4px;
+}
+
+.breadcrumb-button.text.focused {
+    box-shadow: 0px 0px 0px 4px #f4ebff;
+}
+
+.breadcrumb-button.button-gray.icon-false {
+    padding: 4px 8px;
+}
+
+.breadcrumb-button.button-gray.icon-true {
+    padding: 4px;
+}
+
+.breadcrumb-button.hover.button-gray {
+    background-color: #f8f9fb;
+}
+
+.breadcrumb-button.current-true .text-7 {
+    font-weight: 600;
+}
+
+.breadcrumb-button.current-false .text-7 {
+    font-weight: 500;
+}
+
+.breadcrumb-button.button-primary.current-true .text-7 {
+    color: #6840c6;
+}
+
+.breadcrumb-button.button-gray.current-true .text-7 {
+    color: #344053;
+}
+
+.breadcrumb-button.hover.button-primary .text-7 {
+    color: #6840c6;
+}
+
+.breadcrumb-button.text.current-true .text-7 {
+    color: #6840c6;
+}
+
+.breadcrumb-button.default.current-false .text-7 {
+    color: #475466;
+}
+
+.breadcrumb-button.focused.current-false .text-7 {
+    color: #475466;
+}
+
+.breadcrumb-button.text.hover.current-false .text-7 {
+    color: #1d2838;
+}
+
+.breadcrumb-button.hover.button-gray.current-false .text-7 {
+    color: #1d2838;
+}

@@ -1,0 +1,116 @@
+.breadcrumbs {
+    position: relative;
+}
+
+.breadcrumbs .breadcrumb-button-base {
+    flex: 0 0 auto !important;
+}
+
+.breadcrumbs .slash-divider {
+    height: 20px;
+    position: relative;
+    width: 20px;
+}
+
+.breadcrumbs .tabs {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.breadcrumbs .chevron-right {
+    height: 16px !important;
+    position: relative !important;
+    width: 16px !important;
+}
+
+.breadcrumbs.type-0-text-with-line {
+    align-items: flex-start;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #eaecf0;
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    padding: 8px 0px;
+}
+
+.breadcrumbs.type-0-button-gray {
+    align-items: center;
+    display: inline-flex;
+}
+
+.breadcrumbs.type-0-text {
+    align-items: center;
+    display: inline-flex;
+}
+
+.breadcrumbs.type-0-button-primary {
+    align-items: center;
+    display: inline-flex;
+}
+
+.breadcrumbs.type-0-button-gray-with-border {
+    align-items: center;
+    background-color: #fbfcfc;
+    border-radius: 8px;
+    display: inline-flex;
+    padding: 4px;
+}
+
+.breadcrumbs.type-0-text-with-line.breakpoint-8-desktop {
+    width: 480px;
+}
+
+.breadcrumbs.type-0-text.breakpoint-8-desktop {
+    gap: 12px;
+}
+
+.breadcrumbs.breakpoint-8-mobile.type-0-text-with-line {
+    width: 320px;
+}
+
+.breadcrumbs.type-0-text.breakpoint-8-mobile {
+    gap: 8px;
+}
+
+.breadcrumbs.type-0-text .tabs {
+    gap: 8px;
+}
+
+.breadcrumbs.type-0-text-with-line.breakpoint-8-desktop .tabs {
+    gap: 12px;
+    padding: 0px 0px 0px 8px;
+}
+
+.breadcrumbs.breakpoint-8-mobile.type-0-button-gray .tabs {
+    gap: 6px;
+}
+
+.breadcrumbs.type-0-button-gray.breakpoint-8-desktop .tabs {
+    gap: 8px;
+}
+
+.breadcrumbs.type-0-button-gray-with-border.breakpoint-8-mobile .tabs {
+    gap: 6px;
+}
+
+.breadcrumbs.breakpoint-8-mobile.type-0-text-with-line .tabs {
+    gap: 8px;
+}
+
+.breadcrumbs.breakpoint-8-mobile.type-0-button-primary .tabs {
+    gap: 6px;
+}
+
+.breadcrumbs.breakpoint-8-desktop.type-0-button-primary .tabs {
+    gap: 8px;
+}
+
+.breadcrumbs.type-0-button-gray-with-border.breakpoint-8-desktop .tabs {
+    gap: 8px;
+}

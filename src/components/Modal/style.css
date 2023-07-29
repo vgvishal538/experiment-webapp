@@ -1,0 +1,115 @@
+.custom-modal-content {
+    max-height: 80%;
+    overflow-y: auto;
+
+}
+
+.ReactModal__Overlay {
+    backdrop-filter: blur(4px);
+}
+
+.ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.label {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.text-wrapper {
+    border: 0px none;
+    height: 20px;
+    width: 47px;
+}
+
+.text {
+    color: #344053;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: fixed;
+    top: 0;
+    white-space: nowrap;
+}
+
+.text-and-supporting {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 4px;
+    position: relative;
+}
+
+.text-2 {
+    align-self: stretch;
+    color: #0f1728;
+    font-family: "Work Sans", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-top: -1px;
+    position: relative;
+}
+
+.supporting-text {
+    align-self: stretch;
+    color: #475466;
+    font-family: "Work Sans", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: relative;
+}
+
+.actions-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    border-color: #eaecf0;
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    padding: 16px;
+    position: relative;
+    width: 98%;
+}
+
+.actions {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    justify-content: space-between;
+    position: relative;
+}
+
+.button-instance {
+    flex: 0 0 auto !important;
+}
+
+.design-component-instance-node {
+    font-family: "Work Sans", Helvetica !important;
+}
+
+
+
+.row {
+    align-items: flex-start;
+    border-radius: 20px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    overflow: hidden;
+    position: relative;
+}
