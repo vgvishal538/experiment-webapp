@@ -70,7 +70,7 @@ const ReportsScreen = () => {
                 <div className="">
                     <div className="">
                         <div className="div-wrapper">
-                            <div className="frame-2">
+                            <div className="frame-2">git
                                 <div className="frame-3">
                                     <div className="text-13">Reports</div>
                                 </div>
@@ -114,7 +114,6 @@ const ReportsScreen = () => {
                                         className="page-header-instance"
                                         divider={false}
                                         search={false}
-                                        style={"simple"}
                                         supportingText={false}
                                         text="Collection Reports"
                                         textClassName="design-component-instance-node"
@@ -195,7 +194,7 @@ const ReportsScreen = () => {
                                         className="page-header-instance"
                                         divider={false}
                                         search={false}
-                                        style={"simple"}
+                                        
                                         supportingText={false}
                                         text="Credit Financing Reports"
                                         textClassName="design-component-instance-node"
@@ -286,7 +285,7 @@ const ReportsScreen = () => {
                                             <TableCell
                                                 className="table-cell-instance"
                                                 stateProp="default"
-                                                style={"text"}
+                                                
                                                 supportingText={false}
                                                 text={currentDateTimeFormatted}
                                                 textAndSupportingClassName="design-component-instance-node"
@@ -304,7 +303,7 @@ const ReportsScreen = () => {
                                             <TableCell
                                                 className="table-cell-instance"
                                                 stateProp="default"
-                                                style={"text"}
+                                                
                                                 supportingText={false}
                                                 text="Cadbury"
                                                 textAndSupportingClassName="design-component-instance-node"
