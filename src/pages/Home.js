@@ -22,7 +22,7 @@ const Home = () => {
             setresData(res.articles);
             setLoader(false);
         } catch (error) {
-            console.log(error);
+
             setLoader(false);
         }
     }
