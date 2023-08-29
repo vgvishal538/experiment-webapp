@@ -1,11 +1,47 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import CardItems from '../components/CardItems';
+import Loader from '../components/Loader';
 
 
 const Home = () => {
+
+    const [resData, setresData] = useState([]);
+    const [loader, setLoader] = useState(false);
+    useEffect(() => {
+
+        apiCall();
+    }, []);
+
+    const apiCall = async () => {
+        try {
+            const url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=e15c2d84266c4664a44b0b9d510ec594&pageSize=50";
+            setLoader(true);
+            const responseData = await fetch(url, { method: "GET" });
+            const res = await responseData.json();
+
+            setresData(res.articles);
+            setLoader(false);
+        } catch (error) {
+            setLoader(false);
+        }
+    }
+
     return (
+
         <div className="content">
-            <h1>Welcome to our Bulletin News </h1>
-            <p>This is the home page content.</p>
+            {loader ? <Loader /> :
+                <>
+                    {resData.map((item, index) => (
+
+                        <CardItems
+                            image={item.urlToImage}
+                            title={item.title}
+                            description={item.description}
+                            sourceName={item.source.name}
+                            sourceLink={item.url}
+                        />
+                    ))}
+                </>}
         </div>
     );
 };
