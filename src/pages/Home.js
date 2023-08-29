@@ -22,6 +22,7 @@ const Home = () => {
             setresData(res.articles);
             setLoader(false);
         } catch (error) {
+            console.log(error);
             setLoader(false);
         }
     }
@@ -32,14 +33,16 @@ const Home = () => {
             {loader ? <Loader /> :
                 <>
                     {resData.map((item, index) => (
+                        <div key={index}>
 
-                        <CardItems
-                            image={item.urlToImage}
-                            title={item.title}
-                            description={item.description}
-                            sourceName={item.source.name}
-                            sourceLink={item.url}
-                        />
+                            <CardItems
+                                image={item.urlToImage}
+                                title={item.title}
+                                description={item.description}
+                                sourceName={item.source.name}
+                                sourceLink={item.url}
+                            />
+                        </div>
                     ))}
                 </>}
         </div>
