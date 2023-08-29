@@ -30,11 +30,12 @@ const Home = () => {
     return (
 
         <div className="content">
-            {loader ? <Loader /> :
-                <>
-                    {resData.map((item, index) => (
+            {loader ? (
+                <Loader />
+            ) : (
+                resData && resData.length > 0 ? (
+                    resData.map((item, index) => (
                         <div key={index}>
-
                             <CardItems
                                 image={item.urlToImage}
                                 title={item.title}
@@ -43,8 +44,11 @@ const Home = () => {
                                 sourceLink={item.url}
                             />
                         </div>
-                    ))}
-                </>}
+                    ))
+                ) : (
+                    <p>No data available.</p>
+                )
+            )}
         </div>
     );
 };
